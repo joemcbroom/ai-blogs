@@ -1,1 +1,1 @@
-# ai-blogs
+# ai-blogs mono repo
