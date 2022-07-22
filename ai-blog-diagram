@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T12:18:28.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.4" etag="Omobr0rTwIoVwJwcnMR3" type="github"><diagram id="VipGX-S_AvpdBhy1opAg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-22T12:19:26.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2ygWTRv_NKIqy1MAsafg" version="20.1.4" type="github" pages="4">
+  <diagram id="VipGX-S_AvpdBhy1opAg" name="Page-1">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;DB&lt;br&gt;&lt;/font&gt;" link="data:page/id,wPEG5MzqWxIXJ-8zoLMa" id="n-hbKwbHA0LTY0TempXZ-1">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="1240" y="375" width="120" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-2" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;AI-Blogs Infrastructure&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="500" height="130" as="geometry" />
+        </mxCell>
+        <UserObject label="Node.js Application&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;(generate/aggregate content)&lt;/font&gt;" link="data:page/id,3OJ3d0nf-2Ijy8Cjkczt" id="n-hbKwbHA0LTY0TempXZ-3">
+          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#8CC64F;gradientColor=none;fontSize=32;" vertex="1" parent="1">
+            <mxGeometry x="758.13" y="375" width="113.75" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-4" value="Presentation Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-5" value="Generator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-6" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Storage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-7" value="Supabase.io&lt;br&gt;(cloud storage)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="490" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;strokeWidth=4;" edge="1" parent="1" source="n-hbKwbHA0LTY0TempXZ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255.00499999999965" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 32px;&quot;&gt;Next.js Dev&lt;/font&gt;" link="data:page/id,NZhIMwtsw2iJvKm3Ypl9" id="n-hbKwbHA0LTY0TempXZ-9">
+          <mxCell style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.website;fontSize=24;labelBackgroundColor=#FFF;labelBorderColor=default;" vertex="1" parent="1">
+            <mxGeometry x="152.66" y="375" width="204.69" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="805" width="400.83" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.sites.website_public;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;fontSize=24;" vertex="1" parent="n-hbKwbHA0LTY0TempXZ-10">
+          <mxGeometry width="120.83" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.sites.website_public;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;fontSize=24;" vertex="1" parent="n-hbKwbHA0LTY0TempXZ-10">
+          <mxGeometry x="140" width="120.83" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-13" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.sites.website_public;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;fontSize=24;" vertex="1" parent="n-hbKwbHA0LTY0TempXZ-10">
+          <mxGeometry x="280" width="120.83" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-hbKwbHA0LTY0TempXZ-14" value="Deployment&lt;br&gt;(&lt;a href=&quot;https://vercel.com/docs/concepts/deployments/overview&quot;&gt;Vercel&lt;/a&gt; SSG deployment)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="380" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Front End" id="NZhIMwtsw2iJvKm3Ypl9">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Database" id="wPEG5MzqWxIXJ-8zoLMa">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SarRK3S3IlrpMP3PWP0H-1" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Supabase Database&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="645" y="50" width="310" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Generator" id="3OJ3d0nf-2Ijy8Cjkczt">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ld1umuCr5K-J02oM8ru9-1" value="Generator&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="715" y="25" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=24;strokeWidth=4;" edge="1" parent="1" source="Ld1umuCr5K-J02oM8ru9-2" target="5wNAz6W2L8wRWpxeCqs5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Calls GPT-3 API&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="5wNAz6W2L8wRWpxeCqs5-2">
+          <mxGeometry x="-0.1899" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=4;" edge="1" parent="1" source="Ld1umuCr5K-J02oM8ru9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.5" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-8" value="Save Content to DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="5wNAz6W2L8wRWpxeCqs5-7">
+          <mxGeometry x="0.2015" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ld1umuCr5K-J02oM8ru9-2" value="Node.js application&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;User: Admin&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/notes-128.png;labelBorderColor=default;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="220" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AI Generated Blog Posts, Keywords, etc&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;strokeWidth=4;" edge="1" parent="1" source="5wNAz6W2L8wRWpxeCqs5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.5" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wNAz6W2L8wRWpxeCqs5-1" value="&lt;a href=&quot;https://beta.openai.com/docs/introduction&quot;&gt;GPT-3&lt;br&gt;OpenAI&lt;/a&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_128x128.png;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1052.5" y="230" width="140" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;DB&lt;br&gt;&lt;/font&gt;" link="data:page/id,EhaH9ySOZBEcMw618ToA" id="5wNAz6W2L8wRWpxeCqs5-6">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="360" y="580" width="120" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
